@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #222;
+  --clr-primary-light:#374151;
+  --clr-links: #3b82f6;
+  --bg-clr: #f9fcfb;
+  --bg-clr-secondary: #f1f6f4;
+  --line: rgb(186, 183, 183);
+  --ff-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+  font-family: var(--ff-main);
+  background: var(--bg-clr-secondary);
+  color: var(--clr-primary);
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.3rem;
+}
+
+p, li {
+  color: var(--clr-primary-light);
+  font-size: 0.9rem;
+}
+
+h2, .faq-section-text, .underline {
+  margin-left: -1.5rem;
+}
+a {
+  color: var(--clr-links);
+  text-decoration: none;
+}
+
+.faq-heading {
+  background: var(--bg-clr);
+  padding-bottom: 2.5rem;
+  width: 100%;
+  display: block;
+}
+
+.faq-subtitle{
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.faq-sections {
+ width: 100%;
+ padding: 0 1rem;
+ /* background: #222 */
+}
+
+.faq-section {
+  max-width: 600px;
+}
+
+.faq-section-title {
+  margin-top: 3.5rem;
+  /* color: wheat */
+}
+
+.faq-section-list {
+  line-height: 1.7rem;
+  margin-bottom: 1.3rem;
+  
+}
+
+.faq-section-text {
+  margin-bottom: 1.3rem;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    background: var(--line);
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 1rem;
+  color: #374151;
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1350px) {
+  .faq-section {
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+   
+   }
+
+   .faq-sections {
+    width: 100%;
+   }
+}
+@media screen and (min-width: 1024px) {
+  .faq-section {
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+   
+   }
+
+   .faq-sections {
+    width: 100%;
+   }
+}
+@media screen and (min-width: 990px) {
+  .faq-section {
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+   
+   }
+
+   .faq-sections {
+    width: 100%;
+   }
+}
+@media screen and (min-width: 748px) {
+  .faq-section {
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+   
+   }
+
+   .faq-sections {
+    width: 100%;
+   }
+}
+@media screen and (min-width: 412px) {
+  .faq-heading {
+    padding: 0 3rem;
+  }
+
+  .faq-section {
+
+    padding: 0 3rem;
+   }
+}
